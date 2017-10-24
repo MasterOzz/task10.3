@@ -1,7 +1,7 @@
-﻿$(function(){
+$(function(){
 var carouselList = $("#carousel ul");
-setTimeout(changeSlide, 3000); 
-setInterval(changeSlide, 3000); 
+setTimeout(changeSlide, 3500); 
+setInterval(changeSlide, 3500); 
 
 function changeSlide() {
 	carouselList.animate({'marginLeft':-400}, 400, moveFirstSlide);
@@ -13,5 +13,4 @@ function moveFirstSlide () {
 	lastItem.after(firstItem);
 	carouselList.css({marginLeft:0});
 };
-
 });
