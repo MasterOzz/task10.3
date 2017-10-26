@@ -1,31 +1,25 @@
-* {
-box-sizing: border-box;
-}
-.row:before,
-.row:after {
-	content: "";
-	display: table;	
-body {
-	margin: 0;
-	padding: 0;
-}
 #carousel {
-	width: 400px;
-	height: 200px;
-	margin: 0 auto;
-	border: 2px solid black;
-	overflow: hidden;
+  border: solid 3px black;
+  height: 400px;
+  width: 700px;
+  overflow: hidden;
+  margin: auto;
 }
-#carousel ul {
-	padding: 0;
-	margin: 0;
-	width: 400px;
+img {
+  height: 400px;
+  width: 700px;
 }
-#carousel ul li {
-	list-style: none;
-	float: left;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 3500px;
 }
-#carousel ul li img {
-	width: 400px;
-	height: 200px;
+li {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 700px;
+  list-style: none;
+  float: left;
 }
